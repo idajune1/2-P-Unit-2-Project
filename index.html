@@ -20,7 +20,13 @@ Select ONE Additional Feature to Add
         <title>The Intriguing Squishy</title>
     </head>
     <style> 
-body{background-color:rgb(43, 247, 43)}
+    body,html{animation:ColorChange 10s infinite alternate;}
+    @keyframes ColorChange{0%{background-color:rgb(243, 112, 112)}50%{background-color:rgb(255, 103, 32)}75%{background-color:rgb(255, 255, 117)}80%{background-color:rgb(105, 245, 105)}100%{background-color:rgb(185, 185, 255)}
+    }
+ .hello{color: blue;}
+ .squish{color: red}
+    .mama{border:1ex solid black;}
+
         h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
         h1{color: deeppink;}
 
@@ -43,7 +49,7 @@ body{background-color:rgb(43, 247, 43)}
   
     <body>
 <h2>The curious and playful world of Squish</h2>
-<p>Do you ever feel sad? Depressed? Lonely even? Well, If you have
+<p class="hello">Do you ever feel sad? Depressed? Lonely even? Well, If you have
     then welcome. Squishy is here to help. Squishies are nice toys
     that fold but dont break under pressure. Whenever you are feeling
     down just know that in everyone a little squish can be found.
@@ -56,7 +62,7 @@ body{background-color:rgb(43, 247, 43)}
   </p>  
     <h2 id="enter"> What is that in the road? </h2>
 
-<p> I got closer to the unidentifed object and I realized.
+<p class="squish"> I got closer to the unidentifed object and I realized.
     It was a squishy!! </p>  
     <h2 id="enter"> A squishy? Huh...Maybe its a sign..</h2>
     
@@ -68,6 +74,9 @@ body{background-color:rgb(43, 247, 43)}
       I love you.
     </p>
 
-    <h2> With a squishy, you are never alone, recall that. Ok?</h2>
+    <h1 class="mama"> With a squishy, you are never alone, recall that. Ok?</h2>
+       
+       <img src="webcam-toy-photo6.jpg" width="400" height="300"
+       
     </body>
 </html>
